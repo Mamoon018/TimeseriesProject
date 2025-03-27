@@ -1,0 +1,28 @@
+[ 2025-03-27 01:25:02,954 ] 23 root - INFO - logger configured successfully
+[ 2025-03-27 01:25:05,226 ] 27 root - INFO - Enter the data ingestion method to read the data
+[ 2025-03-27 01:25:05,682 ] 33 root - INFO - imported and read the train data file
+[ 2025-03-27 01:25:06,165 ] 39 root - INFO - train data saved in csv in artifact
+[ 2025-03-27 01:25:06,500 ] 48 root - INFO - data ingestion completed.
+[ 2025-03-27 01:25:06,825 ] 197 root - INFO - preprocessor is ready to transform the data
+[ 2025-03-27 01:25:06,838 ] 37 root - INFO - feature eng execution will start
+[ 2025-03-27 01:25:06,860 ] 45 root - INFO - now, generating RUL column
+[ 2025-03-27 01:25:06,901 ] 50 root - INFO - now, generating rolling stats columns
+[ 2025-03-27 01:25:07,334 ] 57 root - INFO - now, generating delta columns
+[ 2025-03-27 01:25:07,902 ] 37 root - INFO - feature eng execution will start
+[ 2025-03-27 01:25:07,916 ] 45 root - INFO - now, generating RUL column
+[ 2025-03-27 01:25:07,919 ] 50 root - INFO - now, generating rolling stats columns
+[ 2025-03-27 01:25:08,212 ] 57 root - INFO - now, generating delta columns
+[ 2025-03-27 01:25:08,745 ] 150 root - INFO - getting strongly correlated columns for KNN models
+[ 2025-03-27 01:25:08,851 ] 164 root - INFO - initiating imputation after fitting executed
+[ 2025-03-27 01:25:08,885 ] 91 root - INFO - executing sd outlier
+[ 2025-03-27 01:25:08,908 ] 101 root - INFO - Outliers removed using SD method for selected columns
+[ 2025-03-27 01:25:08,910 ] 118 root - INFO - fitting IQR cal
+[ 2025-03-27 01:25:08,916 ] 130 root - INFO - IQR outlier remover will be executed
+[ 2025-03-27 01:25:08,936 ] 135 root - INFO - IQR Completed
+[ 2025-03-27 01:25:08,984 ] 164 root - INFO - initiating imputation after fitting executed
+[ 2025-03-27 01:25:09,009 ] 91 root - INFO - executing sd outlier
+[ 2025-03-27 01:25:09,025 ] 101 root - INFO - Outliers removed using SD method for selected columns
+[ 2025-03-27 01:25:09,027 ] 130 root - INFO - IQR outlier remover will be executed
+[ 2025-03-27 01:25:09,041 ] 135 root - INFO - IQR Completed
+[ 2025-03-27 01:25:09,051 ] 231 root - INFO - Preprocessor applied
+[ 2025-03-27 01:25:09,067 ] 241 root - INFO - saved preprocessor

@@ -1,0 +1,8 @@
+[ 2025-03-24 14:53:24,794 ] 24 root - INFO - Enter the data ingestion method to read the data
+[ 2025-03-24 14:53:25,281 ] 30 root - INFO - imported and read the train data file
+[ 2025-03-24 14:53:25,861 ] 36 root - INFO - train data saved in csv in artifact
+[ 2025-03-24 14:53:26,195 ] 45 root - INFO - data ingestion completed.
+[ 2025-03-24 14:53:26,195 ] 24 root - INFO - Enter the data ingestion method to read the data
+[ 2025-03-24 14:53:26,692 ] 30 root - INFO - imported and read the train data file
+[ 2025-03-24 14:53:27,335 ] 36 root - INFO - train data saved in csv in artifact
+[ 2025-03-24 14:53:27,701 ] 45 root - INFO - data ingestion completed.

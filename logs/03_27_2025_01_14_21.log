@@ -1,0 +1,32 @@
+[ 2025-03-27 01:14:21,891 ] 23 root - INFO - logger configured successfully
+[ 2025-03-27 01:14:24,085 ] 27 root - INFO - Enter the data ingestion method to read the data
+[ 2025-03-27 01:14:24,519 ] 33 root - INFO - imported and read the train data file
+[ 2025-03-27 01:14:25,044 ] 39 root - INFO - train data saved in csv in artifact
+[ 2025-03-27 01:14:25,369 ] 48 root - INFO - data ingestion completed.
+[ 2025-03-27 01:14:25,369 ] 27 root - INFO - Enter the data ingestion method to read the data
+[ 2025-03-27 01:14:26,023 ] 33 root - INFO - imported and read the train data file
+[ 2025-03-27 01:14:26,467 ] 39 root - INFO - train data saved in csv in artifact
+[ 2025-03-27 01:14:26,755 ] 48 root - INFO - data ingestion completed.
+[ 2025-03-27 01:14:26,972 ] 197 root - INFO - preprocessor is ready to transform the data
+[ 2025-03-27 01:14:26,972 ] 37 root - INFO - feature eng execution will start
+[ 2025-03-27 01:14:26,972 ] 45 root - INFO - now, generating RUL column
+[ 2025-03-27 01:14:26,989 ] 50 root - INFO - now, generating rolling stats columns
+[ 2025-03-27 01:14:27,258 ] 57 root - INFO - now, generating delta columns
+[ 2025-03-27 01:14:27,745 ] 37 root - INFO - feature eng execution will start
+[ 2025-03-27 01:14:27,745 ] 45 root - INFO - now, generating RUL column
+[ 2025-03-27 01:14:27,765 ] 50 root - INFO - now, generating rolling stats columns
+[ 2025-03-27 01:14:28,000 ] 57 root - INFO - now, generating delta columns
+[ 2025-03-27 01:14:28,503 ] 150 root - INFO - getting strongly correlated columns for KNN models
+[ 2025-03-27 01:14:28,602 ] 164 root - INFO - initiating imputation after fitting executed
+[ 2025-03-27 01:14:28,629 ] 91 root - INFO - executing sd outlier
+[ 2025-03-27 01:14:28,652 ] 101 root - INFO - Outliers removed using SD method for selected columns
+[ 2025-03-27 01:14:28,654 ] 118 root - INFO - fitting IQR cal
+[ 2025-03-27 01:14:28,663 ] 130 root - INFO - IQR outlier remover will be executed
+[ 2025-03-27 01:14:28,678 ] 135 root - INFO - IQR Completed
+[ 2025-03-27 01:14:28,724 ] 164 root - INFO - initiating imputation after fitting executed
+[ 2025-03-27 01:14:28,744 ] 91 root - INFO - executing sd outlier
+[ 2025-03-27 01:14:28,761 ] 101 root - INFO - Outliers removed using SD method for selected columns
+[ 2025-03-27 01:14:28,761 ] 130 root - INFO - IQR outlier remover will be executed
+[ 2025-03-27 01:14:28,769 ] 135 root - INFO - IQR Completed
+[ 2025-03-27 01:14:28,777 ] 231 root - INFO - Preprocessor applied
+[ 2025-03-27 01:14:28,802 ] 241 root - INFO - saved preprocessor

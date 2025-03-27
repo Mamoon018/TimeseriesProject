@@ -1,0 +1,11 @@
+[ 2025-03-27 00:26:41,320 ] 23 root - INFO - logger configured successfully
+[ 2025-03-27 00:26:43,594 ] 27 root - INFO - Enter the data ingestion method to read the data
+[ 2025-03-27 00:26:44,163 ] 33 root - INFO - imported and read the train data file
+[ 2025-03-27 00:26:44,737 ] 39 root - INFO - train data saved in csv in artifact
+[ 2025-03-27 00:26:45,056 ] 48 root - INFO - data ingestion completed.
+[ 2025-03-27 00:26:45,056 ] 27 root - INFO - Enter the data ingestion method to read the data
+[ 2025-03-27 00:26:45,686 ] 33 root - INFO - imported and read the train data file
+[ 2025-03-27 00:26:46,150 ] 39 root - INFO - train data saved in csv in artifact
+[ 2025-03-27 00:26:46,450 ] 48 root - INFO - data ingestion completed.
+[ 2025-03-27 00:26:46,650 ] 198 root - INFO - preprocessor is ready to transform the data
+[ 2025-03-27 00:26:46,650 ] 244 root - ERROR - Error in data transformation

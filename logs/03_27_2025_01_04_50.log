@@ -1,0 +1,15 @@
+[ 2025-03-27 01:04:50,346 ] 23 root - INFO - logger configured successfully
+[ 2025-03-27 01:04:52,676 ] 27 root - INFO - Enter the data ingestion method to read the data
+[ 2025-03-27 01:04:53,123 ] 33 root - INFO - imported and read the train data file
+[ 2025-03-27 01:04:53,636 ] 39 root - INFO - train data saved in csv in artifact
+[ 2025-03-27 01:04:54,145 ] 48 root - INFO - data ingestion completed.
+[ 2025-03-27 01:04:54,146 ] 27 root - INFO - Enter the data ingestion method to read the data
+[ 2025-03-27 01:04:54,625 ] 33 root - INFO - imported and read the train data file
+[ 2025-03-27 01:04:55,070 ] 39 root - INFO - train data saved in csv in artifact
+[ 2025-03-27 01:04:55,351 ] 48 root - INFO - data ingestion completed.
+[ 2025-03-27 01:04:55,529 ] 198 root - INFO - preprocessor is ready to transform the data
+[ 2025-03-27 01:04:55,529 ] 37 root - INFO - feature eng execution will start
+[ 2025-03-27 01:04:55,529 ] 45 root - INFO - now, generating RUL column
+[ 2025-03-27 01:04:55,559 ] 50 root - INFO - now, generating rolling stats columns
+[ 2025-03-27 01:04:55,816 ] 57 root - INFO - now, generating delta columns
+[ 2025-03-27 01:04:56,360 ] 247 root - ERROR - Error in data transformation

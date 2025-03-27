@@ -1,0 +1,28 @@
+[ 2025-03-27 01:26:33,293 ] 23 root - INFO - logger configured successfully
+[ 2025-03-27 01:26:35,401 ] 27 root - INFO - Enter the data ingestion method to read the data
+[ 2025-03-27 01:26:35,868 ] 33 root - INFO - imported and read the train data file
+[ 2025-03-27 01:26:36,360 ] 39 root - INFO - train data saved in csv in artifact
+[ 2025-03-27 01:26:36,692 ] 48 root - INFO - data ingestion completed.
+[ 2025-03-27 01:26:36,905 ] 198 root - INFO - preprocessor is ready to transform the data
+[ 2025-03-27 01:26:36,905 ] 37 root - INFO - feature eng execution will start
+[ 2025-03-27 01:26:36,913 ] 45 root - INFO - now, generating RUL column
+[ 2025-03-27 01:26:36,946 ] 50 root - INFO - now, generating rolling stats columns
+[ 2025-03-27 01:26:37,296 ] 57 root - INFO - now, generating delta columns
+[ 2025-03-27 01:26:37,765 ] 37 root - INFO - feature eng execution will start
+[ 2025-03-27 01:26:37,779 ] 45 root - INFO - now, generating RUL column
+[ 2025-03-27 01:26:37,782 ] 50 root - INFO - now, generating rolling stats columns
+[ 2025-03-27 01:26:38,026 ] 57 root - INFO - now, generating delta columns
+[ 2025-03-27 01:26:38,559 ] 91 root - INFO - executing sd outlier
+[ 2025-03-27 01:26:38,564 ] 101 root - INFO - Outliers removed using SD method for selected columns
+[ 2025-03-27 01:26:38,564 ] 118 root - INFO - fitting IQR cal
+[ 2025-03-27 01:26:38,578 ] 130 root - INFO - IQR outlier remover will be executed
+[ 2025-03-27 01:26:38,602 ] 135 root - INFO - IQR Completed
+[ 2025-03-27 01:26:38,605 ] 150 root - INFO - getting strongly correlated columns for KNN models
+[ 2025-03-27 01:26:38,693 ] 164 root - INFO - initiating imputation after fitting executed
+[ 2025-03-27 01:26:43,660 ] 91 root - INFO - executing sd outlier
+[ 2025-03-27 01:26:43,663 ] 101 root - INFO - Outliers removed using SD method for selected columns
+[ 2025-03-27 01:26:43,663 ] 130 root - INFO - IQR outlier remover will be executed
+[ 2025-03-27 01:26:43,682 ] 135 root - INFO - IQR Completed
+[ 2025-03-27 01:26:43,684 ] 164 root - INFO - initiating imputation after fitting executed
+[ 2025-03-27 01:26:44,043 ] 232 root - INFO - Preprocessor applied
+[ 2025-03-27 01:26:44,043 ] 242 root - INFO - saved preprocessor
